@@ -51,4 +51,5 @@ static void activate_cb(GtkApplication *app, gpointer user_data) {
   ;                                                                            \
   g_signal_connect(data.app, "activate", G_CALLBACK(activate_cb), &data);      \
   g_application_run(G_APPLICATION(data.app), 0, NULL);                         \
+  g_object_unref(data.app);                                                    \
   }
