@@ -1,0 +1,6 @@
+option(
+  'interactive_test',
+  type: 'boolean',
+  value: false,
+  description: 'Whether to show window for each test case. If true, going to a next test case is done by pressing space or return key',
+)
