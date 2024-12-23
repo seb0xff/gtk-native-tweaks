@@ -95,7 +95,3 @@ GntMacosWindow *gnt_macos_window_new(window);
 Python bindings are available and installed by default, there is an example in the `examples` directory.
 
 **Note:** At the moment there is no stubs generated, but the api is almost the same as the C api (just look at the header file).
-
-```
-
-```
